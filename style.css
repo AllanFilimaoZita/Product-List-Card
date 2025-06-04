@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 200px 150px;
+}
+
+#main {
+    display: flex;
+    gap: 20px;
+}
+
+#product-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list1 {
+    display: flex;
+    gap: 0.3%;
+}
+
+.product-text1 {
+    padding: 5% 0;
+}
+
+.product-card1 img {
+    width: 80%;
+    border-radius: 4%;
+}
+
