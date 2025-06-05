@@ -23,7 +23,7 @@
     --black: #000000;
     --orange: #ff8706;
     --red: #f40000;
-    --pink: #fdf1fb;
+    --caqui: #e3e3e3;
     --white: #ffffff;
 }
 
@@ -132,6 +132,10 @@ body {
     border: 1px solid red;
     padding: 2% 1%;
     width: 50vw;
+    height: 50vh;
     background-color: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./assets/img/illustration-empty-cart.svg);
 }
 
