@@ -1,36 +1,111 @@
+/* Declarando as Fontes de Textos Gerais do Projeto */
+@font-face {
+    font-family: 'RedHatText-Regular';
+    src: url(./assets/fonts/static/RedHatText-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Declarando as Fontes de Títulos do Projeto */
+@font-face {
+    font-family: 'RedHatText-Bold';
+    src: url(./assets/fonts/static/RedHatText-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 
+/* Declarando Cores do Projeto */
+:root {
+    --gray: #a1a1a1;
+    --black: #000000;
+    --orange: #ff8706;
+    --red: #f40000;
+    --pink: #fdf1fb;
+    --white: #ffffff;
+}
+
+/* Fazendo o Reset da Página */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'RedHatText-Regular';
 }
 
+
+/* Estilização do Corpo da Página */
 body {
-    padding: 200px 150px;
+    padding: 5%;
 }
 
+
+/* Estilização da Sessão dos Cards */
 #main {
     display: flex;
-    gap: 20px;
+    gap: 5%;
+    padding: 5%;
+    background-color: var(--pink);
+    border: 1px solid green;
 }
 
-#product-grid {
+/* Estilização das Filas do List Cards */
+.heading {
+    padding: 0 5%;
+    font-size: 28px;
+    font-family: 'RedHatText-Bold';
+}
+
+.product-list {
     display: flex;
-    flex-wrap: wrap;
+    gap: 2%;
+    width: 50vw;
+    padding: 5%;
 }
 
-.product-list1 {
-    display: flex;
-    gap: 0.3%;
-}
-
-.product-text1 {
-    padding: 5% 0;
+.product-card1 {
+    width: 100%;
 }
 
 .product-card1 img {
-    width: 80%;
+    width: 100%;
+    height: 100%;
     border-radius: 4%;
 }
 
+.product-text1 {
+    padding: 4% 1%;
+}
+
+.product-text1 span {
+    font-size: 1.2em;
+    color: var(--gray);
+}
+
+.product-text1 strong {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.product-text1 .dollar {
+    font-size: 1.2em;
+    font-style: normal;
+    color: var(--orange);
+}
+
+#payment {
+    border: 1px solid red;
+    padding: 2% 1%;
+    width: 50vw;
+    background-color: var(--white);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
