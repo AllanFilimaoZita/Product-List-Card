@@ -23,7 +23,7 @@
     --black: #000000;
     --orange: #ff8706;
     --red: #f40000;
-    --caqui: #e3e3e3;
+    --caqui: #ebcfb6;
     --white: #ffffff;
 }
 
@@ -46,7 +46,6 @@ body {
 #main {
     display: flex;
     gap: 5%;
-    padding: 5%;
     background-color: var(--pink);
     border: 1px solid green;
 }
@@ -62,7 +61,7 @@ body {
     display: flex;
     gap: 2%;
     width: 50vw;
-    padding: 5%;
+    padding: 1% 5%;
 }
 
 .product-card1 {
@@ -74,6 +73,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .product-card1 img {
@@ -87,6 +87,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    position: absolute;
+    top: 90%;
 
     font-family: 'RedHatText';
     font-size: 1rem;
@@ -108,7 +110,7 @@ body {
 }
 
 .product-text1 {
-    padding: 4% 1%;
+    padding: 10% 1%;
 }
 
 .product-text1 span {
