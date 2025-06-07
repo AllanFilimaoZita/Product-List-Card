@@ -128,14 +128,9 @@ body {
     color: var(--orange);
 }
 
-#payment {
-    border: 1px solid red;
-    padding: 2% 1%;
+
+.text {
     width: 50vw;
     height: 50vh;
-    background-color: var(--white);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(./assets/img/illustration-empty-cart.svg);
+    border: 1px sol;
 }
-
