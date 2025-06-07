@@ -23,7 +23,7 @@
     --black: #000000;
     --orange: #ff8706;
     --red: #f40000;
-    --caqui: #ebcfb6;
+    --caqui: #edeae9;
     --white: #ffffff;
 }
 
@@ -39,15 +39,14 @@
 /* Estilização do Corpo da Página */
 body {
     padding: 5%;
+    background-color: var(--caqui);
 }
 
 
 /* Estilização da Sessão dos Cards */
 #main {
     display: flex;
-    gap: 5%;
-    background-color: var(--pink);
-    border: 1px solid green;
+    gap: 2%;
 }
 
 /* Estilização das Filas do List Cards */
@@ -136,3 +135,25 @@ body {
     height: 50vh;
     border: 1px sol;
 }
+
+#payment {
+    padding: 1% 2%;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 2%;
+    position: relative;
+    background-color: var(--white);
+}
+
+#payment .img-payment {
+    padding-left: 25%;
+}
+
+#payment .cart-head {
+    top: 5%;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--red);
+    position: absolute;
+}
+
